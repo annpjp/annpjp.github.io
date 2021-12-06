@@ -18,10 +18,24 @@ body {
     background-size: cover;
     color:#333;
 }
-.page {
-    width: 800px;
-    margin: 0 auto;
+
+@media screen and (max-width:840px) {
+    .page {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
 }
+
+@media screen and (min-width:841px) {
+    .page {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+}
+
+
 h1.title {
     color: #eee;
     padding:20px 0;
@@ -45,6 +59,8 @@ h2.podcastTitle {
 
 section.section {
     background:rgba(255,255,255,0.8);
+    border-radius:10px;
+    padding-bottom:40px;
 }
 .anchor {
     text-align: center;
@@ -53,6 +69,7 @@ section.section {
 .podcasts {
     margin:20px;
     padding: 40px;
+
 }
 
 .description {
