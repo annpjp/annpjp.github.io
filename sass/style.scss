@@ -19,6 +19,7 @@ body {
     color:#333;
 }
 
+// MOBILE
 @media screen and (max-width:840px) {
     .page {
         width: 80vw;
@@ -27,9 +28,26 @@ body {
     img.siteTitle {
         width:60vw;
     }
+    .podcasts {
+        margin:0px;
+        padding: 20px 20px;
+
+    }
+    h2.podcastNumber {
+        margin-bottom:0;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    h2.podcastTitle {
+        margin:0;
+        padding: 0px 0px 20px 0px;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
 
 }
 
+// PC
 @media screen and (min-width:841px) {
     .page {
         width: 800px;
@@ -38,7 +56,22 @@ body {
     img.siteTitle {
         width:480px;
     }
+    .podcasts {
+        margin:20px;
+        padding: 40px;
 
+    }
+    h2.podcastNumber {
+        margin-bottom:0;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    h2.podcastTitle {
+        margin:0;
+        padding: 0px 0px 20px 0px;
+        font-weight: bold;
+        font-size: 2em;
+    }
 }
 
 
@@ -51,17 +84,7 @@ h1.title {
     text-align: center;
 }
 
-h2.podcastNumber {
-    margin-bottom:0;
-    font-weight: bold;
-    font-size: 1em;
-}
-h2.podcastTitle {
-    margin:0;
-    padding: 0px 0px 20px 0px;
-    font-weight: bold;
-    font-size: 2em;
-}
+
 
 section.section {
     background:rgba(255,255,255,0.8);
@@ -70,12 +93,6 @@ section.section {
 }
 .anchor {
     text-align: center;
-}
-
-.podcasts {
-    margin:20px;
-    padding: 40px;
-
 }
 
 .description {
